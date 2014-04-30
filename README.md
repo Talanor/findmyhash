@@ -1,0 +1,4 @@
+findmyhash
+==========
+
+Hash cracker
