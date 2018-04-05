@@ -1,17 +1,17 @@
-findmyhash
+(formerly) findmyhash
 ==========
 
-# findmyhash.py
+# hash-tool.py
 
-findmyhash.py tries to crack different types of hashes using free online services.
+hash-tool.py tries to crack different types of hashes using free online services.
 
-NOTE: findmyhash.py 2.0 is coming!! The new version will have many changes and improvements. Some of these changes are:
+NOTE: hash-tool.py 2.0 is coming!! The new version will have many changes and improvements. Some of these changes are:
 
 ### Usage
 The help is pretty self-explanatory and as the API will change quite a bit in the next days / weeks / years, I will not describe the usage further.
 
 ```
-python3 findmyhash.py --help
+python3 hash-tool.py --help
 ```
 
 ### Dependencies
