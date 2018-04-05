@@ -14,6 +14,12 @@ The help is pretty self-explanatory and as the API will change quite a bit in th
 python3 findmyhash.py --help
 ```
 
+### Dependencies
+
+A dependencies.txt is available, use it.
+
+In order to work properly, some of the services use selenium with chrome headless' driver. This might be removed / added as an option or disregarded during four years, who knows? But as of right now, best to install those.
+
 ### Previous Contact
 Web: http://laxmarcaellugar.blogspot.com/
 
