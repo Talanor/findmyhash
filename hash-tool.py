@@ -11,6 +11,7 @@ from findmyhash.cracker import Cracker
 from findmyhash.algo import Algo
 
 # TODO: redo the google search if not found
+# In fact, no, how hard is it to actually do it by yourself...?
 
 def crack(flags):
     to_crack = None
@@ -36,7 +37,6 @@ def print_help(flags):
     flags.parser.print_help()
 
 def main(args):
-    # TODO: Arg parsing is ugly, redo that
     parser = argparse.ArgumentParser(prog=args[0])
     parser.set_defaults(handler=print_help, parser=parser)
     subparsers = parser.add_subparsers(help='sub-command help')
